@@ -1,0 +1,70 @@
+body{
+	background-color: #6c60d0;
+	font-family: tahoma;
+}
+#boxPokedex{
+	width: 900px;
+	height: 500px;
+	background: linear-gradient(to bottom, red, darkred);
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -450px;
+	margin-top: -250px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	box-shadow: 1px 1px 10px 1px black;
+}
+#boxTelaPokemon{
+	width: 380px;
+	height: 380px;
+	background: linear-gradient(to bottom, orange, darkorange 130%);
+	float: left;
+	overflow: auto;
+	margin: 50px 0px 0px 35px;
+	padding: 10px;
+}
+#boxListaPokemon{
+	width: 400px;
+	height: 400px;
+	margin: auto;
+	background-color: white;
+	overflow: auto;
+	margin-top: 50px;
+}
+#boxTelaPokemon,#boxListaPokemon{
+	border-radius: 8px;
+	box-shadow: 1px 1px 1px black;
+}
+.cadaPokemon{
+	background: linear-gradient(to bottom, orange, darkorange 130%);
+	padding: 30px;
+	border: 1px solid gray;
+	height: 100px;
+	line-height: 100px;
+	font-size: 16px;
+	margin: 1px 0px 1px 0px;
+}
+.cadaPokemon:hover{
+	background: linear-gradient(to top, darkorange, darkorange 130%);e;
+	cursor: pointer;
+	border: 1px solid red;
+}
+.imgPokemon{
+	border: 1px solid gray;
+	border-radius: 50%;
+	background-color: white;
+	box-shadow: 1px 1px 10px 1px gray;
+	vertical-align: top;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+#fotoTelaPokemon{
+	background-color: white;
+	width: 100%;
+	height: 200px;
+	border: 1px solid gray;
+	border-radius: 10px;
+	box-shadow: 1px 1px 1px black;
+}
